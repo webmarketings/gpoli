@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" version="5">
+  <description>Sistema de Gerenciamento Politíco</description>
+  <display-name>Sistema de Gerenciamento Politíco</display-name>
+  <module>
+    <web>
+      <web-uri>gpoli-visao-1.0.0.war</web-uri>
+      <context-root>/gpoli</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>gpoli-negocio-1.0.0.jar</ejb>
+  </module>
+  <library-directory>lib</library-directory>
+</application>
